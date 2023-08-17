@@ -1,0 +1,20 @@
+{
+  "name": "llmade",
+  "version": "0.0.1",
+  "scripts": {
+    "tests": "npx mocha --exit \"$INIT_CWD/test/*.js\""
+  },
+  "dependencies": { 
+    "delay": "~5.0.0",
+    "dotenv": "~8.2.0",
+    "lodash": "~4.17.14",
+    "openai": "*",
+    "langchain": "*",
+    "zod": "~3.21.4",
+    "zod-to-json-schema": "~3.21.1",
+    "bottleneck": "~2.19.5"
+  },
+  "devDependencies": {
+    "mocha": "*"    
+  }
+}
