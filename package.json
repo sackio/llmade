@@ -1,6 +1,6 @@
 {
   "name": "llmade",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "tests": "npx mocha --exit \"$INIT_CWD/test/*.js\""
   },
