@@ -1,10 +1,10 @@
 {
   "name": "llmade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "tests": "npx mocha --exit \"$INIT_CWD/test/*.js\""
   },
-  "dependencies": { 
+  "dependencies": {
     "delay": "~5.0.0",
     "dotenv": "~8.2.0",
     "lodash": "~4.17.14",
@@ -15,6 +15,27 @@
     "bottleneck": "~2.19.5"
   },
   "devDependencies": {
-    "mocha": "*"    
-  }
+    "mocha": "*"
+  },
+  "description": "LLMADE is a refreshing library that offers tools to squeeze the most out of LLMs. LLMADE serves up a full glass of utilities for interacting with generative models.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sackio/llmade.git"
+  },
+  "keywords": [
+    "llm",
+    "gpt",
+    "langchain"
+  ],
+  "author": "Ben Sack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sackio/llmade/issues"
+  },
+  "homepage": "https://github.com/sackio/llmade#readme"
 }
